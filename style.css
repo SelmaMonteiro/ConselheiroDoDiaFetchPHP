@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 30px;
+  border: 3px solid blue; /* borda sólida azul */
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#conselho {
+  margin-top: 20px;
+  font-style: italic;
+  font-size: 18px;
+  color: #333;
+}
+
+h1 {
+  color: #0055ff; /* azul mais vibrante */
+}
